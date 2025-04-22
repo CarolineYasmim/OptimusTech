@@ -6,10 +6,11 @@ body {
 }
 
 :root {
-    --primary-color: #4CAF50;
+    --primary-color: #8E2424;
     --secondary-color: #f1f1f1;
     --Backgroud: #fff;
     --text-color: #3A404E;
+    --Gray-500: #667085;
 }
 
 header {
@@ -42,12 +43,13 @@ nav {
 }
 
 .logo {
-   display: flex;
-   width: auto;
-   justify-content: center;
-   align-items: center;
-   gap: 1rem;
-   flex-shrink: 0;
+    display: flex;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    flex-shrink: 0; 
+    
 }
 
 h1 {
@@ -56,4 +58,67 @@ h1 {
     font-weight: 500;
     line-height: 1.333; 
     font-style: normal; 
+    margin: 0; 
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    
+}
+
+a {
+    color: var(--Gray-500);
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    text-decoration: none;
+}
+
+.navigation_actions {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+
+.btn-login {
+    display: flex;
+    padding: 0.625rem 1.125rem; /* Espaçamento interno */
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem; /* Espaçamento entre elementos internos */
+    border-radius: 0.5rem; /* Bordas arredondadas */
+    border: none; /* Sem borda */
+    background: none; /* Sem fundo */
+    color: var(--Gray-500); /* Cor do texto */
+    font-family: 'Inter', sans-serif; /* Fonte */
+    font-size: 1rem; /* Tamanho da fonte */
+    font-weight: 500; /* Peso da fonte */
+    line-height: 1.5rem; /* Altura da linha */
+    cursor: pointer; /* Cursor de ponteiro */
+}
+
+.btn-signup {
+    display: flex;
+    padding: 0.625rem 1.125rem; /* Espaçamento interno */
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem; /* Espaçamento entre elementos internos */
+    border-radius: 0.5rem; /* Bordas arredondadas */
+    border: 1px solid var(--primary-color); /* Cor da borda */
+    background: var(--primary-color); /* Cor de fundo */
+    color: var(--Backgroud); /* Cor do texto (branco) */
+    font-family: 'Inter', sans-serif; /* Fonte */
+    font-size: 1rem; /* Tamanho da fonte */
+    font-weight: 500; /* Peso da fonte */
+    line-height: 1.5rem; /* Altura da linha */
+    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05); /* Sombra */
+    cursor: pointer; /* Cursor de ponteiro */
 }
