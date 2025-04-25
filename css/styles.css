@@ -126,12 +126,11 @@ a {
 
 .cabeçalho {
     display: flex;
-    height: 25.4375rem;
-    padding: 6rem 0rem;
+    height: auto;
+    padding: 6rem 0; /* Espaçamento superior e inferior */
     flex-direction: column;
     align-items: center;
-    gap: 1.5rem;
-    align-self: stretch;
+    gap: 1.5rem; /* Espaçamento entre os elementos */
 }
 
 .cabeçalho span {
@@ -163,11 +162,12 @@ a {
 
 .Content-body {
     display: flex;
+    padding: 0.75rem 0;
     flex-direction: column;
-    align-items: center; /* Centraliza o conteúdo horizontalmente */
-    justify-content: center; /* Centraliza o conteúdo verticalmente, se necessário */
-    width: 49.5rem; /* Largura fixa conforme o design */
-    
+    align-items: center;
+    justify-content: center;
+    width: 49.5rem; /* Ajuste conforme o design */
+    margin: 0;
 }
 
 .Content-body p {
@@ -176,11 +176,7 @@ a {
     font-style: normal;
     font-weight: 400; /* Peso da fonte */
     line-height: 1.875rem; /* Altura da linha */
-    text-align: center; 
-    margin: 0; /* Remove as margens padrão */
-    padding: 0;
-    margin-top: 0.75rem;
-    margin-bottom: 0.75rem; /* Espaçamento entre o parágrafo e o próximo elemento */
+    text-align: center; /* Centraliza o texto */
 }
 
 
