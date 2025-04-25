@@ -11,6 +11,7 @@ body {
     --Backgroud: #fff;
     --text-color: #3A404E;
     --Gray-500: #667085;
+    --gray-900: #101828;
 }
 
 header {
@@ -122,3 +123,64 @@ a {
     box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05); /* Sombra */
     cursor: pointer; /* Cursor de ponteiro */
 }
+
+.cabeçalho {
+    display: flex;
+    height: 25.4375rem;
+    padding: 6rem 0rem;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    align-self: stretch;
+}
+
+.cabeçalho span {
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.5rem;
+    color: var(--primary-color);
+}
+
+.container-body {
+    display: flex;
+    padding: 0 2rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.75rem;
+    flex-shrink: 0;
+}
+
+.container-body h1 {
+    color: var(--gray-900);
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 3.75rem; /* 125% */
+    letter-spacing: -0.06rem;
+
+}
+
+.Content-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza o conteúdo horizontalmente */
+    justify-content: center; /* Centraliza o conteúdo verticalmente, se necessário */
+    width: 49.5rem; /* Largura fixa conforme o design */
+    
+}
+
+.Content-body p {
+    color: var(--Gray-500);
+    font-size: 1.25rem; /* Tamanho da fonte */
+    font-style: normal;
+    font-weight: 400; /* Peso da fonte */
+    line-height: 1.875rem; /* Altura da linha */
+    text-align: center; 
+    margin: 0; /* Remove as margens padrão */
+    padding: 0;
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem; /* Espaçamento entre o parágrafo e o próximo elemento */
+}
+
+
