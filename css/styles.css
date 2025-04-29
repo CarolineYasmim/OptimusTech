@@ -2,7 +2,8 @@
 
 body {
     margin: 0;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Inter', sans-se if;
+    width: auto;
 }
 
 :root {
@@ -146,9 +147,9 @@ a {
     padding: 0 2rem;
     flex-direction: column;
     align-items: flex-start;
-    gap: 0.75rem;
     flex-shrink: 0;
 }
+
 
 .container-body h1 {
     color: var(--gray-900);
@@ -168,7 +169,10 @@ a {
     justify-content: center;
     width: 49.5rem; 
     margin: 0;
+
+
 }
+
 
 .Content-body p {
     color: var(--Gray-500);
@@ -180,3 +184,70 @@ a {
 }
 
 
+.metricas {
+    display: flex;
+    padding-bottom: 6rem;
+    flex-direction: column;
+    align-items: center;
+    align-self: stretch;
+}
+
+.container-metricas{
+    display: flex;
+    width: 80rem;
+    padding: 0rem 2rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4rem;
+}
+
+.content-metricas {
+    display: flex;
+    align-items: flex-start;
+    gap: 2rem;
+    align-self: stretch;
+}
+
+.metricas-card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.25rem;
+    flex: 1 0 0;
+}
+
+.metricas-card h1 {
+    color: var(--primary-color);
+    font-size: 3.75rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 4.5rem; /* 120% */
+    letter-spacing: -0.075rem;
+}
+
+.text-metricas {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+    align-self: stretch;
+}
+
+.text-metricas h3 {
+    color: var(--gray-900);
+    font-size: 1.25rem;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.75rem;
+    margin: 0;
+}
+
+.text-metricas p {
+    color: var(--Gray-500);
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5rem; 
+    margin: 0;
+}
