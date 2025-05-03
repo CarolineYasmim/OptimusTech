@@ -352,13 +352,7 @@ a {
     text-align: center;
 }
 
-.vagas-abertas {
-    display: flex;
-    gap: 4rem;
-    flex-direction: column;
-    align-self: stretch;
-    width: 80rem;
-}
+
 
 .container-vagas {
     display: flex;
