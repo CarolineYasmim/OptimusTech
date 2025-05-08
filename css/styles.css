@@ -534,7 +534,7 @@ a:active {
     align-items: center;
     gap: 2rem;
     align-self: stretch;
-    background: var(--gray-500, #F9FAFB);
+    background:#F9FAFB;
 }
 
 .container-formulario {
