@@ -1,11 +1,24 @@
-# TI Recruitment Page
+# OptimusTech - Landing Page
 
-## Overview
-This project is a recruitment page for a technology company, designed to attract new hires. The page features a responsive navbar that includes a logo, menu items, and action buttons.
+## 📖 Sobre o Projeto
+OptimusTech é uma **landing page** desenvolvida como parte de um **desafio da Alura**. O objetivo do desafio era criar uma página web moderna e funcional para apresentar informações sobre a empresa, suas métricas, vagas disponíveis e depoimentos de colaboradores. 
 
-## Project Structure
+Fiquei responsável por **desenvolver toda a página web**, utilizando boas práticas de HTML e CSS.
+
+---
+
+## 🚀 Tecnologias Utilizadas
+As seguintes tecnologias foram utilizadas no desenvolvimento deste projeto:
+
+- **HTML5**: Para a estrutura semântica da página.
+- **CSS3**: Para estilização e layout responsivo.
+
+---
+
+## 📂 Estrutura do Projeto
+O projeto está organizado da seguinte forma:
 ```
-ti-recruitment-page
+optimustech-landing-page
 ├── assets
 │   └── images
 │       └── logo.png
@@ -15,20 +28,28 @@ ti-recruitment-page
 └── README.md
 ```
 
-## Files Description
-- **assets/images/logo.png**: Contains the logo image for the navbar.
-- **css/styles.css**: Contains the CSS styles for the project, including Flexbox layout for the navbar, colors, spacing, and typography as per the Figma design.
-- **index.html**: The main HTML document that structures the navbar with three sections: logo, menu items, and buttons.
+---
 
-## Setup Instructions
-1. Clone the repository to your local machine.
-2. Open the project folder in your preferred code editor.
-3. Open `index.html` in a web browser to view the recruitment page.
+## 🗂️ Descrição dos Arquivos
+- **assets/images/logo.png**: Contém a imagem do logotipo da empresa.
+- **css/styles.css**: Arquivo de estilos que define o layout, cores, espaçamento e tipografia da página.
+- **index.html**: Documento principal que estrutura a página com seções como cabeçalho, métricas, vagas e depoimentos.
 
-## Additional Notes
-- Ensure that all assets are correctly linked in the HTML file.
-- The CSS file should be linked in the `<head>` section of the HTML document.
-- For any modifications or enhancements, feel free to explore the CSS file and adjust styles as needed.
+---
 
-## Acknowledgments
-This project was inspired by the need for effective recruitment strategies in the tech industry. Special thanks to the design team for providing the Figma layout.
+## 🛠️ Instruções de Configuração
+1. Clone o repositório para sua máquina local.
+2. Abra a pasta do projeto no editor de código de sua preferência.
+3. Abra o arquivo `index.html` em um navegador para visualizar a página.
+
+---
+
+## 📌 Notas Adicionais
+- Certifique-se de que todos os arquivos e recursos estão corretamente vinculados no arquivo HTML.
+- O arquivo CSS deve ser referenciado na seção `<head>` do documento HTML.
+- Para personalizações ou melhorias, explore o arquivo CSS e ajuste os estilos conforme necessário.
+
+---
+
+## 💡 Agradecimentos
+Este projeto foi inspirado pela necessidade de criar uma presença digital impactante para atrair talentos na indústria de tecnologia. Agradecimentos especiais à equipe de design pelo layout moderno e funcional.

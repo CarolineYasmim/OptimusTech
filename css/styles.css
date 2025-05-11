@@ -619,5 +619,5 @@ button:hover {
 button:active {
     background: #6E1C1C; /* Cor ao clicar */
     border-color: #6E1C1C;
-    color: #FFF; /* Ajuste de cor do texto, se necessário */
+    color: #FFF; 
 }
